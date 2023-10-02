@@ -1,4 +1,4 @@
-package agent_AB; 
+package agent_ABCD; 
 
 public class Percept {
 	private String agentLocation;

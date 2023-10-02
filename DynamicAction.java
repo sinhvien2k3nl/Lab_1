@@ -1,4 +1,4 @@
-package agent_AB;
+package agent_ABCD;
 
 public class DynamicAction extends Action {
 	private String name;

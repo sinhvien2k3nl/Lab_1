@@ -1,4 +1,4 @@
-package agent_AB; 
+package agent_ABCD; 
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,6 +12,8 @@ public class EnvironmentState {
 	public EnvironmentState(Environment.LocationState locAState, Environment.LocationState locBState) {
 		this.state.put(Environment.LOCATION_A, locAState);
 		this.state.put(Environment.LOCATION_B, locBState);
+		this.state.put(Environment.LOCATION_C, locBState);
+		this.state.put(Environment.LOCATION_D, locAState);
 	}
 
 	public void setAgentLocation(String location) {
@@ -22,11 +24,11 @@ public class EnvironmentState {
 		return this.agentLocation;
 	}
 
-	public LocationState getLocationState(String location) {
+	public agent_ABCD.Environment.LocationState getLocationState(String location) {
 		return this.state.get(location);
 	}
 
-	public void setLocationState(String location, LocationState locationState) {
+	public void setLocationState(String location, agent_ABCD.Environment.LocationState locationState) {
 		this.state.put(location, locationState);
 	}
 

@@ -1,4 +1,4 @@
-package agent_AB; 
+package agent_ABCD; 
 
 public class TestSimpleReflexAgent {
 	public static void main(String[] args) {
